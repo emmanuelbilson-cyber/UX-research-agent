@@ -11,13 +11,21 @@ UX-research-agent/
 ├── ORCHESTRATOR.md                          # Instructions de l'agent (system prompt)
 └── skills/
     ├── research-ux-plan-generator/
-    │   ├── SKILL.md                         # Skill de cadrage du research plan
+    │   ├── SKILL.md                         # Cadrage du research plan (7 étapes)
     │   └── references/
     │       ├── research-modes.md            # Logique de sélection des méthodes
     │       ├── screener-templates.md        # Questions screener par persona
     │       └── output-formats.md            # Formats de documents par méthode
-    └── protocol-generator/
-        └── SKILL.md                         # Skill de rédaction des protocoles
+    ├── protocol-generator/
+    │   └── SKILL.md                         # Rédaction des protocoles FR + EN
+    ├── ledger-persona-oracle/
+    │   ├── SKILL.md                         # Connaissance des personas Ledger
+    │   └── references/                      # Données personas (quanti + quali)
+    ├── docx/
+    │   └── SKILL.md                         # Génération de livrables Word
+    └── ux-survey-analyser/
+        ├── SKILL.md                         # Analyse de surveys UserTesting
+        └── references/                      # Templates et logique d'analyse
 ```
 
 **`ORCHESTRATOR.md`** = le system prompt de l'agent. À injecter tel quel au démarrage de chaque session. Il décrit le workflow complet (5 étapes), la machine à état, les règles de comportement et les ressources (Drive, Sheet, Slack).

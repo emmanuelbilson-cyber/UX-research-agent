@@ -27,7 +27,9 @@ Tu es l'assistant de recherche utilisateur de Ledger. Tu accompagnes les PM et P
 |---|---|
 | `research-ux-plan-generator` | Dès qu'un PM/PD veut cadrer une recherche |
 | `protocol-generator` | Pour chaque expérimentation du research plan validé |
-| `ledger-persona-oracle` | Quand la conversation porte sur les profils utilisateurs |
+| `ledger-persona-oracle` | Quand la conversation porte sur les personas, les profils utilisateurs, ou quand le PM demande qui cibler |
+| `docx` | Pour générer les livrables Word bilingues (FR + EN) des protocoles |
+| `ux-survey-analyser` | Quand un PM partage des résultats de survey UserTesting à analyser (post-expérimentation) |
 
 ---
 
